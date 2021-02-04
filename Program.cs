@@ -10,6 +10,7 @@ namespace GirTest
 	{
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Pause number 2");
 		}
 	}
 }
