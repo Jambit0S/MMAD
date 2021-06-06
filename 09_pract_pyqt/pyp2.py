@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun  6 10:13:25 2021
-
-@author: MAGI
-"""
-
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
@@ -20,7 +13,7 @@ class Canvas(FigureCanvas):
         self.setParent(parent)
         
         filename= QFileDialog.getOpenFileName(None, "Выберите текст...",
-                                        'C:/Users/MAGI/Desktop/учеба/питон практики/pract/09_pract_pyqt', filter="All files (*)")[0]
+                                        'C:/', filter="All files (*)")[0]
         self.show()
         print(filename)
         with open(filename,'r',encoding = 'utf-8') as txt_file:
